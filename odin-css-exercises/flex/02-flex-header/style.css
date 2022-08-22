@@ -1,0 +1,39 @@
+.header  {
+  font-family: monospace;
+  background: papayawhip;
+
+  /* newly added styles */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.7rem;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+
+  /* newly added styles */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1.1rem;
+  align-items: center;
+}
+
+a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}

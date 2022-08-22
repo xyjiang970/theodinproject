@@ -1,0 +1,145 @@
+/* Importing font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/* End importing font */
+
+* {
+    /* border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* line-height: 150%; */
+    /* color: #F2F2F2; */
+    color: #505581;
+    background: #FAF0CA; /* yellowish orange */
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    /* 0 margin on top & bottom, auto margin on left & right */
+    margin: 0 auto;
+    /* 0 padding on top & bottom, 30px padding on left & right */
+    padding: 0 30px;
+}
+
+.navbar {
+    background: #505581;
+    color: #FAF0CA; /* yellowish orange */
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #FAF0CA;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FFF;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: #FAF0CA; /* yellowish orange */
+    padding: 5px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; /* Want space between the elements */
+    align-items: center;
+    /* Need to add height for align-items to work even though height is specified in .navbar. 
+    We're telling it to take up 100% of the navbar. */ 
+    height: 100%; 
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* Replaced with "gap" in .navbar ul */
+/* .navbar ul li {
+    margin-left: 20px;
+} */
+
+.header {
+    background-color: #2E2F5B;
+    color: #FAF0CA;
+    min-height: 400px;
+}
+
+.header h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.box {
+    /* flex: [min] [max] [ideal size] */
+    flex: 1 1 0;
+    background: #2E2F5B;
+    color: #FAF0CA; /* yellowish orange */
+    border-radius: 10px;
+    /* margin: 20px top & bottom, 10px left and right */
+    margin: 20px 10px;
+    /* padding: 15px top & bottom, 20px left and right */
+    padding: 15px 20px;
+}
+
+.box i {
+    margin-right: 10px;
+}
+
+/* media query */
+/* anything in here only pertains to things under 768px */
+@media(max-width: 768px) {
+    .header .container {
+        flex-direction: column; /* one method is by changing flex-direction to column */
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container {
+        display: block; /* another method is by changing display to block */
+        text-align: left;
+        margin-bottom: 40px;
+    }
+}
