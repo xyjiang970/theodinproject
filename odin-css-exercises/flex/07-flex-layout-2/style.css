@@ -29,10 +29,59 @@ body {
 
 /* Solution */
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
 .header {
   font-size: 32px;
   font-weight: 900;
   display: flex;
   align-items: center;
   padding: 0 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+  flex-grow: 1; /* Can also use flex shorthand -> flex: 1 */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+li {
+  margin-bottom: 16px;
 }
