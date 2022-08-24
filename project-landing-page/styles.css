@@ -1,0 +1,224 @@
+/* ---------- GENERAL STYLES ---------- */
+
+/* Import font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    /* border-box tells the browser to account for any 
+    border and padding in the values you specify for an 
+    element's width and height. If you set an element's 
+    width to 100 pixels, that 100 pixels will include 
+    any border or padding you added, and the content box 
+    will shrink to absorb that extra width. */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1100px;
+    /* 0 margin on top & bottom, auto margin on left & right */
+    margin: 0 auto;
+    /* 0 padding on top & bottom, 30px padding on left & right */
+    padding: 0 30px;
+}
+/* ------------------------------------------------------- */
+
+
+/* ---------- NAVBAR AND HEADER SECTION ---------- */
+
+.navbar, header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3882F6;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 1.5;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    background: gray;
+    border-radius: 10px;
+}
+
+.signup-button {
+    margin-top: 10px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------- */
+
+
+/* ---------- BOXES SECTION ---------- */
+
+.boxes {
+    margin-top: 30px;
+}
+
+.box {
+    border: 5px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.text {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+.container-for-boxes-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+}
+/* ------------------------------------------------------- */
+
+
+/* ---------- QUOTE SECTION ---------- */
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    display: flex;
+    min-height: 400px;
+    max-width: 800px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------- */
+
+
+/* ---------- FOOTER SECTION ---------- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.footer-text a {
+    text-decoration: underline;
+    color: #3882F6;
+}
+/* ------------------------------------------------------- */
+
+
+/* ---------- Media Queries ---------- */
+/* anything in here only pertains to things under 800px */
+@media(max-width: 800px) {
+    .header .container {
+        flex-direction: column; /* one method is by changing flex-direction to column */
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container {
+        display: block; /* another method is by changing display to block */
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .layout {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+}
+/* ------------------------------------------------------- */
