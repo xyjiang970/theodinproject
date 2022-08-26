@@ -8,7 +8,7 @@ To get started, create a free repl account and click “Fork” in order to have
 
 - [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)<br>
 In this exercise, you will be working out of the file called troubleshooting.js<br>
-Solution Link: https://replit.com/@JasonJiang23/Exercise-1-troubleshooting#troubleshooting.js
+Solution Link: https://replit.com/@xyjiang970/Exercise-1-troubleshooting?v=1#troubleshooting.js
 
 - [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)<br>
 You will be working out of script.js<br>
