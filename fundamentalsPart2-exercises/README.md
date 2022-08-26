@@ -6,16 +6,24 @@ Be sure to do the lessons in order presented here. Pressing “run” at the top
 
 To get started, create a free repl account and click “Fork” in order to have access to the exercises. Note: Feel free to browse the files on the left column in order to gain familiarity with it.
 
-[Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
+- [Exercise 1](https://replit.com/@I3uckwheat/troubleshooting#troubleshooting.js)
 In this exercise, you will be working out of the file called troubleshooting.js
+<br>
+Solution Link: 
 
-[Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
+- [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
 You will be working out of script.js
+<br>
+Solution Link: 
 
-[Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
+- [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
 You will be working out of math.js
+<br>
+Solution Link: 
 
-[Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
+- [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
 You will be working out of follow.js
+<br>
+Solution Link: 
 
 https://www.theodinproject.com/lessons/foundations-fundamentals-part-2
