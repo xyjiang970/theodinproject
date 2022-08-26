@@ -96,7 +96,7 @@ header p {
     border-radius: 10px;
 }
 
-.signup-button {
+.header-text-container .signup-button {
     margin-top: 10px;
     color: #F9FAF8;
     background-color: #3882F6;
@@ -104,6 +104,11 @@ header p {
     border-radius: 5px;
     padding: 5px 20px;
     cursor: pointer;
+}
+
+.header-text-container .signup-button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 /* ------------------------------------------------------- */
@@ -177,6 +182,46 @@ header p {
     align-self: flex-end;
     font-weight: bold;
 }
+/* ------------------------------------------------------- */
+
+
+/* ---------- CTA SECTION ---------- */
+
+.cta .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+    /* max-width: 900px; */
+    width: 70vw;
+    background-color: #3882F6;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.cta-text .line1 {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.cta-text .line2 {
+    color: #E5E7EB;
+}
+
+.cta .container .signup-button {
+    text-decoration: none;
+    color: #F9FAF8;
+    border: solid #F9FAF8;
+    border-radius: 10px;
+    background-color: rgba(56, 129, 246, 1);
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.cta .container .signup-button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
 
 /* ------------------------------------------------------- */
 
@@ -202,10 +247,15 @@ footer {
 /* ---------- Media Queries ---------- */
 /* anything in here only pertains to things under 800px */
 @media(max-width: 800px) {
+    .navbar {
+        padding: 50px 0;
+    }
+
     .header .container {
         flex-direction: column; /* one method is by changing flex-direction to column */
         padding-top: 20px;
         text-align: center;
+        padding-bottom: 50px;
     }
 
     .boxes .container {
@@ -220,5 +270,20 @@ footer {
         margin-top: 30px;
     }
 
+    .quote {
+        padding: 20px 0;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+}
+
+/* anything in here only pertains to things under 800px */
+@media(max-width: 1000px) {
+    .cta .container {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
 }
 /* ------------------------------------------------------- */
