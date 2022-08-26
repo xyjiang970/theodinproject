@@ -11,15 +11,15 @@ In this exercise, you will be working out of the file called troubleshooting.js<
 Solution Link: 
 
 - [Exercise 2](https://replit.com/@I3uckwheat/enter-a-number#script.js)
-You will be working out of script.js
+You will be working out of script.js<br>
 Solution Link: 
 
 - [Exercise 3](https://replit.com/@I3uckwheat/lets-do-some-math#math.js)
-You will be working out of math.js
+You will be working out of math.js<br>
 Solution Link: 
 
 - [Exercise 4](https://replit.com/@I3uckwheat/direction-follow#follow.js)
-You will be working out of follow.js
+You will be working out of follow.js<br>
 Solution Link: 
 
 https://www.theodinproject.com/lessons/foundations-fundamentals-part-2
