@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -20,4 +20,8 @@ body {
 footer {
     text-align: center;
     margin-top: auto;
+}
+
+footer p {
+    margin-top: 30px;
 }
